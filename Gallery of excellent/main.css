@@ -27,6 +27,7 @@
 	/*на уроке*/
 	opacity: 1;
 	transform: scale(1.1);
+	z-index: 10;
 
 	
 
