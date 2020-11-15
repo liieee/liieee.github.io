@@ -1,0 +1,68 @@
+.main{
+	width: 70%;
+	margin:auto;
+
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+
+}
+.item{
+	width: 45%;
+	height: 400px;
+	margin: 9px;
+	background-color: skyblue;
+	background-size: cover;
+	background-position: center;
+	/*на уроке*/
+	opacity: 0.5;
+	transition: 1s;
+	}
+
+.item:hover{
+	background-color: black;
+	box-shadow: 4px 4px 12px black;
+	/*на уроке*/
+	opacity: 1;
+	transform: scale(1.1) rotate(2deg);
+
+	
+
+}
+.img1{
+	background-image: url(img/1.jpg);
+}
+.img2{
+	background-image: url(img/2.jpg);
+}
+.img3{
+	background-image: url(img/3.jpg);
+}
+.img4{
+	background-image: url(img/4.jpg);
+}
+.img5{
+	background-image: url(img/5.jpg);
+}
+.img6{
+     background-image: url(img/6.jpg);
+}
+.img7{
+	background-image: url(img/7.jpg);
+}
+.img8{
+	background-image: url(img/8.jpg);
+}
+h1{
+text-align: center;
+font-family: cursive;
+}
+div{
+
+background-color: rgb(28, 6, 6);
+}
+body{
+	background-color: rgb(51, 3, 3);
+}
