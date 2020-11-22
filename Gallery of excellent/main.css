@@ -65,5 +65,8 @@ div{
 background-color: rgb(28, 6, 6);
 }
 body{
-	background-color: rgb(51, 3, 3);
+	background-image: url(img/100.gif);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
