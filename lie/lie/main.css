@@ -44,11 +44,30 @@
 
 .header-content{
 	color: white;
+	text-align: center;
 	}
 .header-content > a{
 	text-decoration: none;
 	color: white;
+	background-color: rgb(0,137,123);
 	margin-left: center;
-	margin: 10px;
+	margin: 100px;
+	display: inline-block;
+	width: 145px;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    }
 }
+.header-content > h1{
+	font-size: 30px;
+}
+.header-content > h2{
+	font-size: 30px;
+}
+.header-content > a:hover{
+	border: 2px solid white;
+	background-color: rgba(0,0,0,0);
+	transition: 1s;
+
 
