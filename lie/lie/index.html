@@ -3,10 +3,22 @@
 <head>
 	<title>LIE</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
 </head>
 <body>
+	<script>
+  AOS.init();
+</script>
 	<div class="navigation">
-		<div class="logo">LOGO</div>
+		<div class="logo">
+			<div class="light l1"></div>
+			<div class="light l2"></div>
+			<div class="light l3"></div>
+			<div class="light l4"></div>
+		</div>
+		
 		<div class="nav-links">
 			<a href="#">home</a>
 			<a href="#">about</a>
@@ -59,7 +71,7 @@
     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
     	</div>
     	<div class="services-bot">
-    		<div class="services-item">
+    		<div data-aos="fade-right" class="services-item">
     			<img src="">
     			<h2>Awesome</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur</p>
@@ -69,7 +81,12 @@
     			<h2>Awesome</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur</p>
     		</div>
-    		<div class="services-item">
+    		<div data-aos="fade-left" class="services-item">
+    			<img src="">
+    			<h2>Awesome</h2>
+    			<p>Lorem ipsum dolor sit amet, consectetur</p>
+    		</div>
+    		<div data-aos="fade-right" class="services-item">
     			<img src="">
     			<h2>Awesome</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur</p>
@@ -79,12 +96,7 @@
     			<h2>Awesome</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur</p>
     		</div>
-    		<div class="services-item">
-    			<img src="">
-    			<h2>Awesome</h2>
-    			<p>Lorem ipsum dolor sit amet, consectetur</p>
-    		</div>
-    		<div class="services-item">
+    		<div  data-aos="fade-left" class="services-item">
     			<img src="">
     			<h2>Awesome</h2>
     			<p>Lorem ipsum dolor sit amet, consectetur</p>
